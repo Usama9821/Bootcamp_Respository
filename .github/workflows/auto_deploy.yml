@@ -32,6 +32,3 @@ jobs:
       
     - name: Deploying using surge
       run: surge ./ Newsletter_Page.surge.sh --token ${{secrets.SURGE_TOKEN}}
-    
-    
-    {{
